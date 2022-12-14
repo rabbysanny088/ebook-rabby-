@@ -1,0 +1,1481 @@
+html{
+  overflow-x: hidden;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header section starts here */
+
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 16px;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  height: 138px;
+}
+
+
+.navbar ul li{
+  display: inline-block;
+  font-size: 23px;
+}
+
+
+
+
+.imge-sop{
+  height: 34px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  padding: 20px;
+  text-transform: capitalize;
+}
+
+
+.navbar{
+  position: relative;
+}
+
+.navbar ul li a:hover{
+  color: blue;
+}
+
+.sohpping{
+  left: calc(50% - 10px);
+  margin-left: 0;
+  bottom: 84%;
+  position: absolute;
+  left: 139px;
+  margin-bottom: 2px;
+  /* margin-right: 16px; */
+  margin-left: 3px;
+  background-color: #e54d26;
+  border-color: #e54d26;
+  color: #fff;
+  font-size: 14px;
+  padding: 4px 7px;
+}
+
+.sohpping::before{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 10px;
+  border: 4px solid;
+  border-color: inherit;
+  border-right-color: transparent!important;
+  border-bottom-color: transparent!important;
+  border-right-width: 7px;
+  border-left-width: 0;
+}
+
+
+.sohpping-for{
+  left: calc(92% - 10px);
+  margin-left: 0;
+  bottom: 84%;
+  position: absolute;
+  left: 467px;    margin-bottom: 2px;
+  background-color: #7628a2;
+  border-color: #7628a2;
+  font-size: 14px;
+  padding: 5px 7px;
+  color: #ffff;
+}
+
+
+.sohpping-for::before{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 10px;
+  border: 4px solid;
+  border-color: inherit;
+  border-right-color: transparent!important;
+  border-bottom-color: transparent!important;
+  border-right-width: 7px;
+  border-left-width: 0;
+}
+
+
+.buy-the{
+  left: calc(92% - 10px);
+  margin-left: 0;
+  bottom: 84%;
+  position: absolute;
+  left: 600px;    margin-bottom: 2px;
+  background-color: #22c8e5;
+  border-color: #22c8e5;
+  font-size: 14px;
+  padding: 5px 7px;
+  color: #ffff;    
+}
+
+
+
+.buy-the::before{
+content: "";
+position: absolute;
+top: 100%;
+left: 10px;
+border: 4px solid;
+border-color: inherit;
+border-right-color: transparent!important;
+border-bottom-color: transparent!important;
+border-right-width: 7px;
+border-left-width: 0;
+}
+
+
+.icon-sop{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.icon-min{
+  width: 100%;
+}
+
+.icon-two{
+  width: 100%;
+}
+
+.icon-tree{
+  width: 100%;
+}
+
+
+.icon-min:hover{
+  color: blue;
+}
+
+.icon-two:hover{
+  color: blue;
+}
+
+
+.icon-tree:hover{
+  color: blue;
+}
+
+.icon-spv{
+  position: absolute;
+  color: #fff;
+  top: 60px;
+  right: 305px;
+  min-width: 18px;
+  line-height: 18px;
+  border-radius: 53%;
+  font-size: 15px;
+  line-height: 22px;
+  min-width: 20px;
+  text-align: center;
+  background: blue;
+}
+
+
+
+.dropdown ul{
+  position: absolute;
+  left: 18px;
+  top: 51px;
+  display: none;
+
+}
+
+li{
+position: relative;
+/* margin-bottom: 9px; */
+}
+
+
+
+.dropdown ul li a{
+
+  border-radius: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  display: block;
+  z-index: 20px;
+  height: 56px;
+  width: 299%;
+  font-size: 22px;
+}
+
+
+
+ul ul a:hover{
+color: blue;
+}
+
+ul li:hover ul{
+display: block;
+
+}
+
+
+/* header section ends here */
+
+/* Today section starts here */
+
+.Today-container{
+  padding: 5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 95px;
+  width: 100%;
+  height: 700px;
+  background: url(./img/background-1.png);
+  background-color: transparent;
+  background-image: radial-gradient(at center left, #6af2be 25%, #1fc585 100%);
+}
+
+
+
+.img-por{
+  max-width: 100%;
+  height: 600px;
+}
+
+
+.headimg-pree{
+      font-family: "Anton", Sans-serif;
+      font-size: 60px;
+      font-weight: 500;
+      text-transform: none;
+      font-style: normal;
+      text-decoration: none;
+      line-height: 1.3em;
+      letter-spacing: 1px;
+      width: 54%;
+      font-weight: bold;
+      margin-bottom: 22px;
+      
+}
+
+
+
+
+.poree-poss{
+  font-family: "Roboto", Sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+  margin-bottom: 58px;
+}
+
+
+
+.btn{
+  font-size: 27px;
+  text-transform: capitalize;
+  font-style: none;
+  line-height: 1rem;
+  letter-spacing: 2px;
+  text-decoration: none;
+  fill: #000000;
+  color: #000000;
+  background-color: #fff;
+  border-radius: 50px 50px 50px 50px;
+  padding: 20px 50px 20px 45px;
+  width: 35%;
+  height: 87px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn:hover{
+  border-style: solid;
+  border-width: 4px 4px 4px 4px;
+  border: 5px solid black;
+  background:none;
+
+}
+
+
+/* Today section ends here */
+
+/* Topics Covered section starts here */
+
+
+
+.line-container{
+  background-color: #f8faf9;
+  width: 100%;
+  height: 51vh;
+  margin-top: -52px;
+  padding: 100px 0px 0px 0px;
+}
+
+
+
+
+
+h3 {
+  font-family: sans-serif;
+  margin: 64px auto;
+  text-align: center;
+  font-size: 35px;
+  max-width: 57%;
+  margin-top: 55px;
+  position: relative;
+}
+h3:before {
+  content: "";
+  display: block;
+  width: 35%;
+  height: 5px;
+  background: #6af2be;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+h3:after {
+  content: "";
+  display: block;
+  width: 35%;
+  height: 5px;
+  background: #6af2be;
+  right: 0;
+  top: 50%;
+  position: absolute;
+}
+
+
+.icon-section{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 66px;
+  text-align: center;
+  
+}
+
+
+.for-icon{
+  background-color: #1fc585;
+}
+
+
+
+
+.icon-date i{
+  color: #fff;
+  font-size: 50px;
+  padding: 20px;
+}
+
+.icon-date{
+  padding: 33px 34px 68px 57px;
+}
+
+.life-go{
+  color: #232323;
+  font-family: "Anton", Sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  text-transform: capitalize;
+  font-style: normal;
+  text-decoration: none;
+  margin-bottom: 20px;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+   margin-top: 50px;
+}
+
+
+.good-life{
+  color: #444444;
+  font-family: "Roboto", Sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.5em;
+  letter-spacing: 0px;
+}
+
+
+.topic{
+  background-color: #f8faf9;
+  padding: 100px 0px 0px 0px;
+}
+
+
+/* Topics Covered section ends here  */
+
+
+
+/* Free Preview section starts here  */
+
+
+.free{
+  padding: 5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 140px;
+  height: 80vh;
+  max-width: 100%;
+}
+
+.free-imge{
+  width: 18%;
+}
+
+
+
+.pree-por{
+  font-family: "Anton", Sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.3em;
+  letter-spacing: 1px;    
+  margin-bottom: 20px;
+}
+
+
+.pree{
+  margin-bottom: 10px;
+}
+
+
+.leater-sp{
+  font-family: "Roboto", Sans-serif;
+  font-size: 20px;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.5em;
+  letter-spacing: 0px;
+}
+
+
+.check{
+  padding: 20px 0px 20px 0px;
+}
+
+.check i{ 
+  background-color: #1fc585;
+  border-radius: 100px;
+  font-size: 14px;
+  color: #fff;
+  padding: 8px;
+  margin-right: 16px;
+
+}
+
+p{
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+
+.btn-new{
+  font-family: "Roboto", Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1em;
+  letter-spacing: 2px;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #1fc585;
+  border-radius: 50px 50px 50px 50px;
+  padding: 17px 40px 17px 40px;
+  border-style: solid;
+  border-width: 4px 4px 4px 4px;
+  border-color: #1fc585;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+
+.btn-new:hover{
+  border-style: solid;
+  border-width: 4px 4px 4px 4px;
+  color: #1fc585;
+  background-color: #fff;
+}
+
+/* Free Preview section ends here  */
+
+
+
+
+/* Author Spotight section starts here  */
+
+
+.Author-main{
+  background: url(./img/background-2.png) no-repeat center center/cover fixed;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+
+.Auhor-img{
+  position: absolute;
+  top: 8%;
+  left: 28%;
+}
+
+
+
+.book-img{
+  width: 120%;
+  height: auto;
+}
+
+
+
+.card-sport{
+  background-color: rgb(255, 255, 255);
+  padding: 40px 50px 40px 60px;
+  max-width: 38%;
+}
+
+
+.card-sport h5{
+  color: #1fc585;
+  font-family: "Roboto", Sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-style: normal;
+  margin-bottom: 20px;
+  text-decoration: none;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+  margin-top: 20px;
+
+}
+
+.card-sport h4{
+  font-family: "Anton", Sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+
+}
+
+.card-sport span{
+  font-family: "Roboto", Sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+}
+
+/* Author Spotight section ends here  */
+
+/* paul section starts here */
+
+
+
+.Readers-main{
+    background-color: #f8faf9;
+    height: 37vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+}
+
+.Readers{
+  background-color: #fff;
+  height: 280px;
+  width: 658px;
+  padding: 40px 0px 70px 0px;
+  margin-right: 114px;
+  position: relative;
+  box-shadow: 0px 0px 40px 0px rgb(0 0 0 / 18%);
+  padding: 40px 40px 40px 60px;
+
+}
+
+  
+
+
+.profile-imge{
+  width: 17%;
+  
+}
+
+
+.Readers img{
+  position: absolute;
+  height: auto;
+  max-width: 88%;
+  border: none;
+  right: 92%;
+  top: 27%;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+
+
+
+.Say{
+  background-color: #fff;
+  height: 280px;
+  width: 658px;
+  padding: 40px 0px 70px 0px;
+  margin-right: 114px;
+  position: relative;
+  box-shadow: 0px 0px 40px 0px rgb(0 0 0 / 18%);
+  padding: 40px 40px 40px 60px;
+
+}
+
+.Say p{
+  font-family: "Roboto", Sans-serif;
+  font-size: 22px;
+  font-weight: 400px;
+  font-weight: 300;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+}
+
+
+.Say h6{
+  color: #1fc585;
+  font-family: "Roboto", Sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+}
+
+
+  .profile-im{
+      width: 17%;
+  }
+
+
+
+  
+  
+  .Say img{
+      position: absolute;
+      height: auto;
+      max-width: 88%;
+      border: none;
+      left: 92%;
+      top: 27%;
+      -webkit-border-radius: 0;
+      border-radius: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+  }
+  
+
+
+
+.Readers p{
+  font-family: "Roboto", Sans-serif;
+  font-size: 22px;
+  font-weight: 400px;
+  font-weight: 300;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+}
+
+
+.Readers h6{
+  color: #1fc585;
+  font-family: "Roboto", Sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+}
+
+
+
+
+/* paul  section ends here */
+
+
+
+/* footer section starts here */
+
+
+.footer-contact{
+  background: url(./img/background-1.png) no-repeat center center/cover fixed;
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+.footer-scetion h5{
+  color: #fff;
+  font-family: "Anton", Sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+}
+
+
+.footer-scetion{
+  position: absolute;
+  left: 19%;
+  top: 24%;
+}
+
+
+.footer-scetion i{
+  background-color: #000000;
+  border-radius: 100px;
+  font-size: 14px;
+  color: #fff;
+  padding: 8px;
+  margin-right: 16px;
+}
+
+
+.footer-scetion h6{
+  font-family: "Roboto", Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  margin-top: 24px;
+  line-height: 1.6em;
+  letter-spacing: 0px;
+  margin-bottom: 20px;
+}
+
+.btn-now{
+  font-family: "Roboto", Sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1em;
+  letter-spacing: 2px;
+  border: solid;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #fff;
+  color: black;
+  border-radius: 50px 50px 50px 50px;
+  padding: 26px 40px 26px 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-style: solid;
+  border-width: 4px 4px 4px 4px;
+  border-color: #1fc585;
+}
+
+.btn-now:hover{    
+  border-style: solid;
+  border-width: 4px 4px 4px 4px;
+  border-color: #ffffff;
+  background-color: transparent;
+  color: #fff;
+}
+
+
+/* footer section ends here */
+
+
+
+@media (max-width:992px) {
+  .container{
+
+  }
+
+  .Today-container{
+    width: 112%;
+  }
+
+
+
+  .icon-spv{
+      position: absolute;
+      left: 93%;
+      top: 59px;
+      width: 2%;
+      height: 21px;
+  }
+
+
+  .day-container{
+      height: 68vh;
+      width: 113%;
+      gap: 10px;
+  }
+
+  .headimg-pree{
+      font-size: 30px;
+  }
+
+  .img-por{
+      height: 95%;
+      width: auto;
+  }
+
+  .poree-poss{
+      font-size: 15px;
+  }
+
+  .btn{
+    font-size: 15px;
+    width: 102%;
+    height: 70px;
+}
+  
+
+.icon-section{
+  gap: 0px;
+}
+
+
+  .line-container{
+    height: 71vh;
+    width: 117%;
+   }
+
+   h3{
+      font-size: 25px;
+   }
+
+
+   .Author-main{
+    height: 73vh;
+    width: 111%;
+   }
+
+   .card-sport{
+      max-width: 58%;
+      height: 48%;
+  }
+
+  .topic{
+
+  }
+
+  .Readers-main{
+
+  }
+  
+  .book-img{
+      width: 100%;
+      height: auto;
+  }
+
+  .card-sport h4{
+      font-size: 22px;
+      margin-bottom: 20px;
+  }
+
+  .card-sport h5{
+      font-size: 20px;
+  }
+
+
+  .Auhor-img{
+      left: 16%;
+      top: 20%;
+  }
+
+
+
+ .icon-date i{
+  font-size: 26px;
+ }
+
+ .life-go{
+  font-size: 20px;
+ }
+
+ .good-life{
+  font-size: 12px;
+ }
+
+
+ .free{
+
+ }
+
+ .free-imge{
+  width: 30%;
+ }
+
+ .pree-por{
+  font-size: 30px;
+ }
+
+ .leater-sp{
+  font-size: 15px;
+ }
+
+ p{
+  font-size: 15px;
+ }
+
+ .check i{
+  font-size: 10px;
+ }
+
+ .btn-new{
+  font-size: 18px;
+ }
+
+ .card-sport span{
+  font-size: 15px;
+ }
+
+
+
+
+ .Readers{
+  width: 54%;
+  height: 70%;
+ }
+
+
+ .Readers p{
+  font-size: 15px;
+ }
+
+ .Readers img{
+  width: 20%;
+ }
+
+
+ .Readers h6{
+  font-size: 20px;
+ }
+
+
+ .Say{
+  width: 54%;
+  height: 70%;
+}
+
+
+
+ .Say p{
+  font-size: 15px;
+ }
+
+ .Say h6{
+  font-size: 20px;
+ }
+  
+ .footer-contact{
+  width: 113%;
+  height: 67vh;
+ }
+
+
+ .footer-scetion h5{
+  font-size: 24px;
+ }
+
+ .footer-scetion h6{
+  font-size: 17px;
+ }
+
+ .footer-scetion p{
+  color: #fff;
+ }
+
+ .btn-now{
+  font-size: 18px;
+  width: 70%;
+}   
+}
+
+
+
+
+
+@media (max-width:768px) {
+  .container{
+      display: flex;
+      flex-direction: column;
+  }
+
+
+  .navbar ul li a{
+      font-size: 18px;
+  }
+
+
+  .imge-sop img{
+      width: 70%;
+  }
+
+  .sohpping{
+      left: 22%;
+      font-size: 10px;
+  }
+
+
+  .sohpping-for{
+      left: 73%;
+      font-size: 10px;
+  }
+
+  .buy-the{
+      left: 93%;
+      font-size: 10px;
+  }
+
+  .icon-spv{
+      left: 50%;
+      top: 109px;
+      font-size: 12px;
+ }
+
+
+  .Today-container{
+    flex-direction: column;
+    height: 135vh;
+    width: 115%;
+}
+
+  
+.topic{
+  width: 114%;
+}
+
+  .img-por{
+      width: 42%;
+ }
+
+  .headimg-pree{
+      width: 120%;
+      font-size: 24px;
+  }
+
+  .poree-poss{
+      font-size: 15px;
+  }
+
+
+  .btn{
+      width: 75%;
+  }
+
+
+  .icon-section{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .line-container{
+    height: 26%;
+    width: 123%;
+}
+
+  .good-life{
+      font-size: 13px;
+  }
+
+  .free{
+      height: 20%;
+      flex-direction: column;
+  }
+
+  .free-imge{
+      width: 35%;
+  }
+
+  .pree-por{
+    font-size: 35px;
+    text-align: center;
+    margin-top: -74px;
+  }
+
+
+  .leater-sp{
+      font-size: 15px;
+  }
+
+   p{
+      font-size: 15px;
+  }
+
+  .btn-new{
+      width: 100%;
+  }
+
+
+  .Author-main{
+    width: 115%;
+  }
+
+  .card-sport{
+      max-width: 70%;
+  }
+
+  .card-sport span{
+      font-size: 14px;
+  }
+
+  .card-sport h4{
+      text-align: center;
+  }
+
+  .card-sport h5{
+      text-align: center;
+  }
+
+  .Auhor-img{
+      top: 19%;
+      left: 79%;
+  }
+
+  .book-img{
+      width: 95%;
+  }
+
+
+  .Readers-main{
+      height: 85vh;
+      flex-direction: column;
+      width: 121%;
+  }
+
+
+  .Readers{
+    width: 59%;
+    height: 26%;
+      /* margin-bottom: 40px; */
+      /* margin: 0 auto; */
+  }
+
+
+  .Readers img{
+      width: 15%;
+      top: -22%;
+      left: 90%;
+  }
+
+  .Say{
+    width: 59%;
+    height: 26%;
+      margin-top: 70px;
+      /* margin-bottom: 40px; */
+      /* margin: 0 auto; */
+  }
+
+
+  .Say img{
+      width: 15%;
+      top: -22%;
+      left: -8%;
+  }
+
+
+  .footer-contact{
+      width: 120%;
+  }
+
+  .footer-scetion h5{
+      text-align: center;
+      font-size: 35px;
+  }
+
+
+  .footer-scetion h6{
+      text-align: center;
+  }
+
+
+  .footer-scetion p{
+      margin-left: -119px;
+  }
+
+
+  .btn-now{
+      width: 239%;
+      position: absolute;
+      left: -43%;
+   }
+
+}
+
+
+@media (max-width:600px) {
+  .container{
+
+  }
+
+  .navbar ul li a{
+      font-size: 13px;
+  }
+
+
+  .icon-sop{
+      font-size: 15px;
+  }
+
+  .imge-sop img{
+      width: 62%;
+  }
+
+  .sohpping{
+      font-size: 10px;
+  }
+
+  .icon-spv{
+      font-size: 10px;
+      top: 113px;
+  }
+
+  .headimg-pree{
+      width: 100%;
+      font-size: 21px;
+      margin-left: 43px;
+  }
+
+  .poree-poss{
+      font-size: 13px;
+      margin-left: 43px;
+  }
+
+  .Readers-main{
+    width: 110%;
+  }
+
+
+  .btn{
+    width: 74%;
+    margin-left: 43px;
+  }
+
+  .pree{
+    margin-left: 51px;
+  }
+
+  p{
+    font-size: 13px;
+  }
+
+
+  .icon-date i{
+      font-size: 18px;
+  }
+
+
+  .life-go{
+      font-size: 15px;
+  }
+
+  .good-life{
+      font-size: 12px;
+  }
+
+  .free img{
+    width: 66%;
+    height: auto;
+}
+  
+
+  h3::before{
+    display: none;
+  }
+
+  h3::after{
+    display: none;
+  }
+
+  .leater-sp{
+    font-size: 15px;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-new{
+    width: 83%;
+  }
+
+  .icon-section{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .topic{
+    width: 111%;
+  }
+
+  .card-sport h4{
+      font-size: 17px;
+  }
+
+
+  .card-sport span{
+      font-size: 13px;
+  }
+
+  .card-sport h5{
+      font-size: 15px;
+  }
+
+  .book-img{
+      width: 85%;
+  }
+
+  .Auhor-img{
+      left: 73%;
+      top: 17%;
+  }
+
+
+  .Readers{
+      width: 64%;
+  }
+
+  .Readers p{
+      font-size: 13px;
+  }
+
+
+  .Readers h6{
+      font-size: 16px;
+  }
+
+
+  .Readers img{
+      width: 18%;
+      left: 83%;
+      top: -23%;
+  }
+
+
+  .Say{
+      width: 64%;
+  }
+
+  .Say p{
+      font-size: 13px;
+  }
+
+
+  .Say h6{
+      font-size: 16px;
+  }
+
+  .Say img{
+      width: 17%;
+      left: -1%;
+      top: -23%;
+  }
+
+  .line-container{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+
+  .footer-contact h5{
+      font-size: 30px;
+  }
+
+  .footer-contact{
+    margin-left: -8px;
+  }
+
+  .btn-now{
+    width: 106%;
+    font-size: 18px;
+    margin-left: 109px;
+}
+
+
+
+  .footer-scetion i{
+      font-size: 10px;
+  }
+.img-por{
+  width: 406px;
+  height: auto;
+}
+
+
+
+  .footer-contact p{
+      font-size: 14px;
+      margin-left: -25px;
+  }
+
+
+
+
+
+}
+
+
+
+
+
+
+
